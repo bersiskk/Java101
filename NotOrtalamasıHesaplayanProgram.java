@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class NotOrtalamasıHesaplayanProgram {
     public static void main(String[] args) {
-        float mat, fiz, kim, tur, tar, muz;     //Ortalamanın ondalık çıkması için değerler float olarak tanımlandı.
+        float mat, fiz, kim, tur, tar, muz;     //Ortalamanın ondalık çıkması için veriler float olarak tanımlandı.
         Scanner input = new Scanner(System.in);
 
         System.out.print("Matematik notu: ");
