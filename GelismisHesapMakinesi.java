@@ -22,9 +22,14 @@ public class GelismisHesapMakinesi {
     }
 
     static void power(int a, int b) {
-        int result = 1;
-        for (int i = 1; i < b; i++) {
-            result *= a;
+        int result;
+        if (a == 0) {
+            result = 0;
+        } else {
+            result = 1;
+            for (int i = 1; i < b; i++) {
+                result *= a;
+            }
         }
         System.out.println("Üslü işlem sonucu = " + result);
     }
@@ -100,7 +105,11 @@ public class GelismisHesapMakinesi {
                     power(a, b);
                     break;
                 case 6:
-                    factorial(a);
+                    if (a < 0) {
+                        System.out.println("1. sayıyı 0'dan büyük giriniz!");
+                    } else {
+                        factorial(a);
+                    }
                     break;
                 case 7:
                     mod(a, b);
