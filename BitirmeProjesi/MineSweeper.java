@@ -59,9 +59,9 @@ public class MineSweeper {
 
     void start() {
         constructMatrix();
-        System.out.println("Mayınların konumu:");
-        print(mineMatrix);
-        System.out.println("============================");
+//        System.out.println("Mayınların konumu:");
+//        print(mineMatrix);
+//        System.out.println("============================");
         System.out.println("Mayın Tarlası oyununa hoşgeldiniz!");
     }
 
